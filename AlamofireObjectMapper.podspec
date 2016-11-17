@@ -14,8 +14,7 @@ Pod::Spec.new do |s|
   s.tvos.deployment_target = '9.0'
 
   s.requires_arc = 'true'
-  s.source_files = 'AlamofireObjectMapper/**/*.swift'
-  #s.dependency 'AlamofireDomain', '~> 4.0'
+  s.source_files = 'AlamofireObjectMapper/**/*.swift'  
   s.dependency 'Alamofire', :git => 'https://github.com/sandyway/Alamofire.git', :branch => 'serious'
   s.dependency 'ObjectMapper', '~> 2.0'
 end
