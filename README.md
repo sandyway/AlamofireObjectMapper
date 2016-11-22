@@ -1,5 +1,7 @@
 pod serioius branch will adapt ios 8
+
 pod 'Alamofire', :git => 'https://github.com/sandyway/Alamofire.git', :branch => 'serious'
+
 AlamofireObjectMapper
 ============
 [![Build Status](https://travis-ci.org/tristanhimmelman/AlamofireObjectMapper.svg?branch=master)](https://travis-ci.org/tristanhimmelman/AlamofireObjectMapper)
